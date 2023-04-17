@@ -8,11 +8,6 @@ Esse componente segue os padrões fornecidos na [documentação do vlibras](http
 
 ## Instalação
 
-```shell
-npm install -S @djpfs/react-vlibras
-# or
-yarn add @djpfs/react-vlibras
-```
 
 ## Como usar
 
@@ -53,23 +48,4 @@ Confira melhor a motivação: [gg-martins091/pull/9](https://github.com/djpfs/re
 
 ![Rsultado 2](/public/assets/result2.png)
 
-## Contribuindo
 
-- De erros de digitação na documentação à codificação de novos recursos;
-- Verifique os issue em aberto ou abra um novo issue para iniciar uma discussão sobre sua ideia de recurso ou o bug que você encontrou;
-- Dê um fork no repositório, fazendo as alterações e enviando um PR;
-
-Lib e README baseado no: [@vue_a11y](https://raw.githubusercontent.com/vue-a11y/vue-vlibras/)
-Template package: [https://github.com/tomchen/example-typescript-package](example-typescript-package)
-
-## Contribuidores
-
-<a href="https://github.com/djpfs/react-vlibras/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=djpfs/react-vlibras" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-_Obrigado ao [gg-martins091](https://github.com/gg-martins091) pela contribuição._
-
-**Obrigado por usar e fazer a web mais acessível**
