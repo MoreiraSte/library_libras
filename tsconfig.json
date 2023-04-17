@@ -1,0 +1,18 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "ES2015",
+        "strict": true,
+        "declaration": true, // generates declaration files
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "allowJs": true,
+        "outDir": "./dist/out-tsc",
+        "forceConsistentCasingInFileNames": true
+
+        
+    }
+}
