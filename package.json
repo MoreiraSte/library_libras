@@ -1,6 +1,6 @@
 {
-  "name": "@djpfs/react-vlibras",
-  "description": "Lib do VLibras para usar em seus projetos React",
+  "name": "@vlibras-tcc/react-vlibras",
+  "description": "Biblioteca do vlibras - Usando o script do vlibras localmente e evita que o cors o bloqueie",
   "version": "2.0.2",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/djpfs/react-vlibras.git"
+    "url": "https://github.com/MoreiraSte/library_libras"
   },
   "keywords": [
     "vlibras",
@@ -31,7 +31,7 @@
     "types",
     "typescript"
   ],
-  "author": "@djpfs",
+  "author": "@MoreiraSte",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -41,9 +41,12 @@
     "@types/react-dom": "^17.0.11",
     "react": "17.x",
     "react-dom": "17.x",
+    "ts-loader": "^9.2.5",
     "typescript": "^4.5.2",
     "webpack": "^5.52.1",
-    "webpack-cli": "^4.8.0",
-    "ts-loader": "^9.2.5"
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "helmet": "^6.1.5"
   }
 }

@@ -5,15 +5,19 @@ export default class VLibras extends Component<{ forceOnload?: boolean }> {
   widgetSrc: string
   scriptSrc: any
   script: any
+  
 
   constructor(props: any) {
+
     super(props)
     this.widgetSrc = 'https://vlibras.gov.br/app'
     this.scriptSrc = {libras}
   }
 
   init() {
+
     this.script = document.createElement('script')
+    this.script.crossorigin = "anonymous"
     this.script.src = this.scriptSrc
     this.script.async = true
     this.script.onload = (load: any) => {

@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../dist/umd'),
     filename: 'index.js',
-    library: '@djpfs/react-vlibras',
+    library: '@vlibras-tcc/react-vlibras',
     libraryTarget: 'umd',
     globalObject: 'this',
   },
