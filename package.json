@@ -1,5 +1,5 @@
 {
-  "name": "@vlibras-tcc/react-vlibras",
+  "name": "@moreiraste/react-vlibras",
   "description": "Biblioteca do vlibras - Usando o script do vlibras localmente e evita que o cors o bloqueie",
   "version": "2.0.2",
   "main": "dist/cjs/index.js",
@@ -31,7 +31,7 @@
     "types",
     "typescript"
   ],
-  "author": "@MoreiraSte",
+  "author": "@moreiraste",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
