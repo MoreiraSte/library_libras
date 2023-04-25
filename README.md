@@ -8,6 +8,9 @@ Esse componente segue os padrões fornecidos na [documentação do vlibras](http
 
 ## Instalação
 
+```typescript
+  npm i @moreiraste/react-vlibras
+```
 
 ## Como usar
 
