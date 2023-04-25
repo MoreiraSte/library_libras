@@ -13,11 +13,19 @@ Esse componente segue os padrões fornecidos na [documentação do vlibras](http
 
 React (App.js)
 
-![React](/public/assets/react.png)
+```typescript
+import VLibras from '@moreiraste/react-vlibras'
 
-NextJs (index.jsx)
+function App() {
+  return (
+    <div>
+      <VLibras />
+    </div>
+  )
+}
 
-![NextJs](/public/assets/nextjs.png)
+export default App
+```
 
 **Parametros**
 
@@ -39,8 +47,6 @@ function App() {
 
 export default App
 ```
-
-Confira melhor a motivação: [gg-martins091/pull/9](https://github.com/djpfs/react-vlibras/pull/9)
 
 ## Resultado
 
