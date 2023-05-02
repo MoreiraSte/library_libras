@@ -1,7 +1,7 @@
 {
   "name": "@moreiraste/react-vlibras",
   "description": "Biblioteca do vlibras - Usando o script do vlibras localmente e evita que o cors o bloqueie",
-  "version": "2.2.3",
+  "version": "2.3.3",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",

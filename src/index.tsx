@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {libras} from './codePlugin.js'
+// import {libras} from './codePlugin.js'
 
 export default class VLibras extends Component<{ forceOnload?: boolean }> {
   widgetSrc: string
@@ -11,7 +11,7 @@ export default class VLibras extends Component<{ forceOnload?: boolean }> {
 
     super(props)
     this.widgetSrc = 'https://vlibras.gov.br/app'
-    this.scriptSrc = {libras}
+    this.scriptSrc = 'https://vlibras.gov.br/app/vlibras-plugin.js'
   }
 
   init() {
